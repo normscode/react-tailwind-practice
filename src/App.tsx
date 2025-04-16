@@ -5,6 +5,7 @@ import { GoPerson } from "react-icons/go";
 import Logo from "./assets/logo.png";
 import Drone from "./assets/drone1.png";
 import Forest from "./assets/forest.jpg";
+import Drone2 from "./assets/drone2.png";
 function App() {
   return (
     <>
@@ -111,10 +112,11 @@ function App() {
           </div>
         </section>
 
-        <section className="flex flex-col justify-between mx-auto max-w-[94rem]">
-          <h1 className="z-10">What's Hot</h1>
+        <section className="flex flex-col gap-8 justify-between mx-auto max-w-[94rem]">
+          <h1 className="text-3xl font-medium">What's Hot</h1>
           <div className="flex gap-4">
             <div className="rounded-2xl relative h-110 w-100">
+              <img src={Drone2} alt="logo" className="absolute bottom-2" />
               <img
                 src={Forest}
                 alt="logo"
@@ -137,6 +139,7 @@ function App() {
               </div>
             </div>
             <div className="rounded-2xl relative h-110 w-100">
+              <img src={Drone2} alt="logo" className="absolute bottom-2" />
               <img
                 src={Forest}
                 alt="logo"
@@ -159,6 +162,7 @@ function App() {
               </div>
             </div>
             <div className="rounded-2xl relative h-110 w-100">
+            <img src={Drone2} alt="logo" className="absolute bottom-2" />
               <img
                 src={Forest}
                 alt="logo"
@@ -181,6 +185,7 @@ function App() {
               </div>
             </div>
             <div className="rounded-2xl relative h-110 w-100">
+              <img src={Drone2} alt="logo" className="absolute bottom-2" />
               <img
                 src={Forest}
                 alt="logo"
