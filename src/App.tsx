@@ -6,6 +6,8 @@ import Logo from "./assets/logo.png";
 import Drone from "./assets/drone1.png";
 import Forest from "./assets/forest.jpg";
 import Drone2 from "./assets/drone2.png";
+import CreditReward from "./assets/credit reward.jpg";
+import ShipsFree from "./assets/free.jpg";
 function App() {
   return (
     <>
@@ -112,7 +114,7 @@ function App() {
           </div>
         </section>
 
-        <section className="flex flex-col gap-8 justify-between mx-auto max-w-[94rem]">
+        <section className="flex flex-col gap-8 mx-auto max-w-[94rem] mb-10">
           <h1 className="text-3xl font-medium">What's Hot</h1>
           <div className="flex gap-4">
             <div className="rounded-2xl relative h-110 w-100">
@@ -161,8 +163,8 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="rounded-2xl relative h-110 w-100">
-            <img src={Drone2} alt="logo" className="absolute bottom-2" />
+            <div className="rounded-2xl relative h-110 w-100 mb-2">
+              <img src={Drone2} alt="logo" className="absolute bottom-2" />
               <img
                 src={Forest}
                 alt="logo"
@@ -206,6 +208,50 @@ function App() {
                   </button>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="flex flex-col gap-8 mx-auto w-[94rem] mb-10 h-[30rem]">
+          <h1 className="text-3xl font-medium">Why shop with DJI Store</h1>
+          <div className="flex gap-4 h-full w-full text-center">
+            <div className="relative border rounded-md basis-3/4 items-center justify-center">
+              <h1 className="text-lg font-medium">1% DJI Credit Reward</h1>
+              <img
+                src={CreditReward}
+                alt=""
+                className="absolute top-0 left-0 right-0 bottom-0 z-[-1]"
+              />
+            </div>
+            <div className="flex flex-col gap-4 basis-3/4">
+              <div className="relative border rounded-md basis-40">
+                <h1>Over USD $35 Ships Free</h1>
+                <img
+                  src={ShipsFree}
+                  alt=""
+                  className="absolute top-0 bottom-0 left-0 right-0 z-[-1]"
+                />
+              </div>
+              <div className="border rounded-md basis-40">
+                Popular Drones In Stock
+              </div>
+            </div>
+            <div className="flex flex-col basis-3/4 gap-4">
+              <div className="border rounded-md basis-40">
+                Free Fast-Delivery Upgrade
+              </div>
+              <div className="border rounded-md basis-40">
+                Official Refurbished
+              </div>
+            </div>
+            <div className="flex flex-col basis-4/4 gap-4">
+              <div className="border rounded-md basis-25">
+                Up to 30-Day Returns
+              </div>
+              <div className="border rounded-md h-full">
+                Get DJI expert help
+              </div>
+              1111
             </div>
           </div>
         </section>
